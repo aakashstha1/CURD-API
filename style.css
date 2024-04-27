@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: linear-gradient(115deg, rgb(0, 132, 255), green);
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  border: 5px solid black;
+}
+
+.container .form-container {
+  padding: 20px;
+  min-width: 400px;
+  border: 1px solid black;
+  margin: 20px 0;
+  border-radius: 20px;
+  background-color: rgb(53, 205, 182);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+form .row1,
+.row2,
+.row3,
+.row4,
+.row5 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+button {
+  align-self: center;
+
+  width: 30%;
+  padding: 10px 0;
+  background-color: rgb(11, 183, 17);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container .table-container {
+  background-color: rgb(42, 42, 42);
+  color: white;
+  border: 1px solid black;
+  width: 90%;
+  margin-top: 50px;
+}
+table {
+  width: 100%;
+}
+th,td{
+  padding: 10px;
+}
+.action {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 2px;
+  gap: 10px;
+}
+
+.action .edit {
+  width: 40px;
+  height: 40px;
+  background-color: #1d10ce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 2px 2px 4px;
+  border-radius: 5px;
+  font-size: 24px;
+}
+
+.action .dlt {
+  width: 40px;
+  height: 40px;
+  background-color: #ce2610;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 18px;
+}
